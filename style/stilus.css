@@ -5,10 +5,12 @@ body{
 }
 
 main{
+    width: 60%;
     margin: auto;
     color: white;
     border: 3px solid white;
     background-color: #16171E;
+    padding-bottom: 15px;
 }
 
 nav{
@@ -43,12 +45,16 @@ li:hover{
 }
 
 section{
-    background-color: #232530;
+   
     padding: 10px;
     margin: 0px 10px 0px 10px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 
 article{
+    background-color: #232530;
     clear: both;
+    width: 70%;
 }

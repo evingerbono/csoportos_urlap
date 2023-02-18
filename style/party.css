@@ -22,11 +22,9 @@ nav{
     grid-area: n;
 }
 img{
-    width: 300px;
+    width: 60%;
 }
 main{
-    
-    width: 90%;
     grid-template-areas:"n"
                         "h"
                         "s"
@@ -39,6 +37,7 @@ h1{
 footer{
     text-align: center;
     grid-area: f;
+    font-size: 20px;
 }
 header{
     grid-area: h;

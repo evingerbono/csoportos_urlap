@@ -1,0 +1,29 @@
+body{
+box-sizing:border-box ;
+}
+section{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    flex: 10px 10px 10px;
+    gap: 10px;
+}
+article{
+    flex-flow: column wrap;
+    display: flex;
+}
+
+img{
+    width: 300px;
+}
+main{
+    margin: auto;
+    width: 90%;
+}
+h1{
+    text-align: center;
+}
+footer{
+    text-align: justify;
+}

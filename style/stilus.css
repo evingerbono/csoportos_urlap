@@ -1,0 +1,54 @@
+body{
+    background: url("../kepek/background.png");
+    background-size: 30%;
+    margin: 0;
+}
+
+main{
+    margin: auto;
+    color: white;
+    border: 3px solid white;
+    background-color: #16171E;
+}
+
+nav{
+    border-bottom: 3px solid white;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    padding-left: 0;
+    list-style:none ;
+    grid-template-columns: 150px 150px;
+    display: grid; 
+    margin: 0;
+    
+}
+
+li{
+    padding: 20px 0px 20px 0px;
+    padding-left: 0;
+    text-align: center;
+    transition: 1s;
+}
+
+li:hover{
+    background-color: #232530;
+    transition: 1s;
+}
+
+section{
+    background-color: #232530;
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+}
+
+
+article{
+    clear: both;
+}

@@ -17,11 +17,7 @@ article{
    margin: auto;
    text-align: center;
 }
-ul{
-    list-style:none ;
-    grid-template-columns: 100px 100px;
-    display: grid;
-}
+
 nav{
     grid-area: n;
 }
@@ -29,7 +25,7 @@ img{
     width: 300px;
 }
 main{
-    margin: auto;
+    
     width: 90%;
     grid-template-areas:"n"
                         "h"

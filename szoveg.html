@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/penzugy.css" />
+    <link rel="stylesheet" href="./style/stilus.css" />
+    <title>Béldy Ádám, Keresztes Hunor</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>A buli részletei</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Fő oldal</a></li>
+          <li><a href="party.html">Party szervező</a></li>
+          <li><a href="penzugy.html">Pénzügyek</a></li>
+          <li><a href="szoveg.html">Részletek</a></li>
+        </ul>
+      </nav>
+      <section>
+        <article>
+          <h2>Kérem adjon meg pár adatot:</h2>
+          <form action="/action_page.php">
+            <fieldset>
+              <legend>Adatok</legend>
+              <label for="fname">Vezetékneve:</label>
+              <input type="text" id="fname" name="fname" /><br /><br />
+              <label for="lname">Keresztneve:</label>
+              <input type="text" id="lname" name="lname" /><br /><br />
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" /><br /><br />
+              <label for="phone">Telefonszám:</label>
+              <input type="tel" id="phone" name="phone" /><br /><br />
+              <label for="date">Születési dátum: </label>
+              <input type="date" id="date" name="trip-start" value="2018-07-22" min="1900-01-01" max="2022-12-31"/> <br>
+              <label for="bplace">Születési hely: </label>
+              <input type="text" id="bplace" name="bplace" /><br /><br />
+            </fieldset>
+          </form>
+        </article>
+        <h2>Leírás:</h2>
+        <p>
+          A lejjebb található szövegdobozbozba kérjük részletezze a
+          megszervezendő buli részleteit!
+        </p>
+        <p>
+          Kérjük fogalmazza bele az eseményt, hogy milyen szolgáltatást
+          szeretne, és hogy hány főre lehet számítani!
+        </p>
+        <article>
+          <form action="/action_page.php">
+            <p><label for="iras">Ide ird:</label></p>
+            <textarea id="text" name="text" rows="4" cols="50" placeholder="pl: Velencét választanám a buli helyének, és szeretnék pincéres felszolgálást, illetve korlátlan italfogyasztást."></textarea>
+            <br />
+          </form>
+        </article>
+      </section>
+      <footer>
+        <p>Kérem nyomja meg a küldés gombot ha kitöltötte</p>
+        <input
+          type="submit"
+          value="Küldés"
+          style="height: 30px; width: 100px; font-size: 20px"
+        />
+      </footer>
+    </main>
+  </body>
+</html>

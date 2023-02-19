@@ -1,32 +1,38 @@
-article{
-    background-color: #16171E;
+article {
+  background-color: #16171e;
 }
-main{
-    grid-template-areas:"n"
-                        "h"
-                        "s"
-                        "f";
+
+main {
+  grid-template-areas:
+    "n"
+    "h"
+    "s"
+    "f";
+  display: grid;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  grid-area: f;
+  font-size: 20px;
+}
+
+header {
+  grid-area: h;
+}
+
+@media screen and (max-width: 700px) {
+  section {
     display: grid;
-}
-h1{
-    text-align: center;
-}
-footer{
-    text-align: center;
-    grid-area: f;
-    font-size: 20px;
-}
-header{
-    grid-area: h;
-}
-@media screen and (max-width:700px){
-    section{
-        display: grid;
-        grid-template-columns: auto;
-        gap: 50px;
-    }
-    article{
-        width: 80%;
-    }
-    
+    grid-template-columns: auto;
+    gap: 50px;
+  }
+  
+  article {
+    width: 80%;
+  }
 }

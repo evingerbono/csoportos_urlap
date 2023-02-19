@@ -1,60 +1,56 @@
-body{
-    background: url("../kepek/background.png");
-    background-size: 30%;
-    margin: 0;
+body {
+  background: url("../kepek/background.png");
+  background-size: 30%;
+  margin: 0;
 }
 
-main{
-    width: 60%;
-    margin: auto;
-    color: white;
-    border: 3px solid white;
-    background-color: #16171E;
-    padding-bottom: 15px;
+main {
+  width: 60%;
+  margin: auto;
+  color: white;
+  border: 3px solid white;
+  background-color: #16171e;
+  padding-bottom: 15px;
 }
 
-nav{
-    border-bottom: 3px solid white;
-    padding: 0;
+nav {
+  border-bottom: 3px solid white;
+  padding: 0;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
 
-ul{
-    padding-left: 0;
-    list-style:none ;
-    grid-template-columns: 150px 150px;
-    display: grid; 
-    margin: 0;
-    
+ul {
+  padding-left: 0;
+  list-style: none;
+  grid-template-columns: 150px 150px;
+  display: grid;
+  margin: 0;
 }
 
-li{
-    padding: 20px 0px 20px 0px;
-    padding-left: 0;
-    text-align: center;
-    transition: 1s;
+li {
+  padding: 20px 0px 20px 0px;
+  padding-left: 0;
+  text-align: center;
+  transition: 1s;
 }
 
-li:hover{
-    background-color: #232530;
-    transition: 1s;
+li:hover {
+  background-color: #232530;
+  transition: 1s;
 }
 
-section{
-   
-    padding: 10px;
-    margin: 0px 10px 0px 10px;
-    display: grid;
-    grid-template-columns: 1fr;
+section {
+  padding: 10px;
+  margin: 0px 10px 0px 10px;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
-
-article{
-    
-    clear: both;
-    width: 70%;
+article {
+  clear: both;
+  width: 70%;
 }

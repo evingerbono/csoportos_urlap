@@ -4,7 +4,6 @@
 
 section {
   display: grid;
-  grid-template-columns: repeat(3, auto);
   gap: 50px;
   grid-area: s;
 }
@@ -26,19 +25,6 @@ nav {
 
 img {
   width: 60%;
-}
-
-main {
-  grid-template-areas:
-    "n"
-    "h"
-    "s"
-    "f";
-  display: grid;
-}
-
-h1 {
-  text-align: center;
 }
 
 footer {

@@ -2,13 +2,8 @@ article {
   background-color: #16171e;
 }
 
-main {
-  grid-template-areas:
-    "n"
-    "h"
-    "s"
-    "f";
-  display: grid;
+fieldset{
+  text-align: left;
 }
 
 h1 {

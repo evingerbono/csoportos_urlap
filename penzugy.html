@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/penzugy.css">
+    <link rel="stylesheet" href="./style/stilus.css">
+    <title>Bella Richárd</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Pénzügyek</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Fő oldal</a></li>
+                <li><a href="party.html">Party szervező</a></li>
+                <li><a href="penzugy.html">Pénzügyek</a></li>
+            </ul>
+        </nav>
+            <section>
+                <article>
+                    <h2>Kérem adjon meg pár adatot</h2>
+                    <form action="/action_page.php">
+                        <fieldset>
+                        <legend>Adatok</legend>
+                         <label for="fname">Vezetékneve:</label>
+                         <input type="text" id="fname" name="fname"><br><br>
+                         <label for="lname">Keresztneve:</label>
+                         <input type="text" id="lname" name="lname"><br><br>
+                         <label for="email">Email:</label>
+                         <input type="email" id="email" name="email"><br><br>
+                         <label for="phone">telefonszám:</label>
+                         <input type="tel" id="phone" name="phone"><br><br>
+                        </fieldset>
+                       </form>
+                       
+                </article>
+                <article>
+                    <h2>Válaszd ki milyen módon szeretnél fizetni</h2>
+                    <form action="/action_page.php">
+                        
+                        <input type="checkbox" id="penz" name="penz" value="keszpenz">
+                        <label for="penz"> Készpénz</label><br>
+                        <input type="checkbox" id="penz" name="penz" value="kartya">
+                        <label for="penz"> Bank kártya</label><br>
+                        <input type="checkbox" id="penz" name="penz" value="kartya">
+                        <label for="penz"> Random valuta</label><br>
+                    </form>
+                    
+                </article>
+                <article>
+                    <h2>Vélemény</h2>
+                    <form action="/action_page.php">
+                        <p>Kérlek jelöld, mennyire vagy megelégedve a szolgáltatásunkal</p>
+                        <input type="radio" id="velemeny" name="fav_language" value="velemeny">
+                        <label for="velemeny">kicsit</label><br>
+                        <input type="radio" id="velemeny" name="fav_language" value="velemeny">
+                        <label for="velemeny">nem volt rossz</label><br>
+                        <input type="radio" id="velemeny" name="fav_language" value="velemeny">
+                        <label for="velemeny">nagyon tetszik</label>
+                      </form>
+                      
+                    
+                </article>
+                <article>
+                    <h2>Egyéb megjegyzés</h2>
+                    <form action="/action_page.php">
+                        <p><label for="w3review">Ide ird:</label></p>
+                        <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+                        <br>
+                        
+                      </form>
+                    
+                </article>
+            </section>
+        <footer>
+            <p>Kérem nyomja meg a submit gombot ha kitöltötte</p>
+            <input type="submit" value="Küldés" style="height:30px; width:100px; font-size:20px;">
+        </footer>
+    </main>
+</body>
+</html>

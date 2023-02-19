@@ -1,29 +1,5 @@
-
-*{
-    box-sizing: border-box;
-}
-section{
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    gap: 50px;
-    grid-area: s;
-}
 article{
-    display: grid;
-    grid-template-columns: auto;
-    gap: 10px;
-   border: 2px solid black;
-   padding: 15px;
-   margin: auto;
-   text-align: center;
-   background-color: #232530;
-}
-
-nav{
-    grid-area: n;
-}
-img{
-    width: 60%;
+    background-color: #16171E;
 }
 main{
     grid-template-areas:"n"
